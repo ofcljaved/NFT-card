@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+body{
+    background: hsl(217, 54%, 11%);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+main{
+    width: 32rem;
+    transition: linear .15s;
+    background: hsl(216, 50%, 16%);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0 3rem .7rem  hsl(217, 55%, 10%),1.5rem 3rem .3rem hsl(217, 55%, 10%), -1.5rem 3rem .3rem hsl(217, 55%, 10%), 0 3rem .7rem 4rem hsl(216,57%,11%);
+}
+main img{
+    width: 28rem;
+    border-radius: .5rem;
+}
+#card_detail h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: .12rem;
+    margin: 2rem 0;
+}
+#card_detail h3{
+    font-size: 1.7rem;
+    font-weight: 200;
+    line-height: 2.5rem;
+}
+#info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+#amnt ,#time {
+    font-size: 1.5rem;
+    font-weight: 200;
+    display: flex;
+}
+#amnt span{
+    margin-left: .5rem;
+    color: hsl(178, 100%, 50%);
+}
+#time span{
+    margin-left: .5rem;
+}
+#card_owner{
+    display: flex;
+    align-items: center;
+    padding: 2rem 0 1rem 0;
+    border-top: .1rem solid hsl(215, 32%, 27%);
+}
+#card_owner img{
+    width:3rem;
+    border: .1rem hsl(0, 0%, 100%) solid;
+    border-radius: 50%;
+}
+#card_owner p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-left: 1.5rem;
+}
+#card_owner p span{
+    color: hsl(0, 0%, 100%);
+}
+main:hover{
+    transform: scale(1.02);
+    box-shadow: 0 3rem 1rem  hsl(217, 55%, 10%),1.5rem 3rem 1rem hsl(217, 55%, 10%), -1.5rem 3rem 1rem hsl(217, 55%, 10%), 0 3rem .7rem 3rem hsl(216,57%,11%);
+}
+#card_detail h1:hover ,#card_owner p span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+} 
