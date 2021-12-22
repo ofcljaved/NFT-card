@@ -96,7 +96,7 @@ main:hover{
 #card_detail h1:hover ,#card_owner p span:hover{
     color: hsl(178, 100%, 50%);
     cursor: pointer;
-} 
+}
 #overlay:hover{
     opacity: 1;
     cursor: pointer;
